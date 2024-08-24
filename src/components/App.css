@@ -1,0 +1,57 @@
+/* App.css */
+.course-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.course-list h2 {
+  margin-bottom: 20px;
+}
+
+.course-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-list .delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.course-list .delete-button:hover {
+  background-color: #c0392b;
+}
+
+.course-list .course-link {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.course-list .course-link:hover {
+  text-decoration: underline;
+}
+
+.course-list .create-course-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #2ecc71;
+}
+
+.course-list .create-course-link:hover {
+  text-decoration: underline;
+}

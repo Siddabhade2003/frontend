@@ -1,0 +1,41 @@
+.create-instance {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.create-instance h2 {
+    margin-bottom: 20px;
+}
+
+.create-instance form div {
+    margin-bottom: 15px;
+}
+
+.create-instance label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-instance input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-instance button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-instance button:hover {
+    background-color: #0056b3;
+}
+
+.create-instance .error {
+    color: red;
+}

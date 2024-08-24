@@ -1,0 +1,26 @@
+.course-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.course-details h2 {
+    margin-bottom: 10px;
+}
+
+.course-details .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.course-details .btn:hover {
+    background-color: #0056b3;
+}
+
+.course-details .error {
+    color: red;
+}

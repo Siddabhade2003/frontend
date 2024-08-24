@@ -1,0 +1,41 @@
+.create-course {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.create-course h2 {
+    margin-bottom: 20px;
+}
+
+.create-course form div {
+    margin-bottom: 15px;
+}
+
+.create-course label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-course input, .create-course textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-course button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-course button:hover {
+    background-color: #0056b3;
+}
+
+.create-course .error {
+    color: red;
+}

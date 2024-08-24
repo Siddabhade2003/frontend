@@ -1,0 +1,58 @@
+.course-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.course-list h2 {
+    margin-bottom: 10px;
+}
+
+.course-list .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.course-list .btn:hover {
+    background-color: #0056b3;
+}
+
+.course-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.course-list th, .course-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.course-list th {
+    background-color: #f4f4f4;
+}
+
+.course-list .btn-view {
+    background-color: #28a745;
+}
+
+.course-list .btn-view:hover {
+    background-color: #218838;
+}
+
+.course-list .btn-delete {
+    background-color: #dc3545;
+}
+
+.course-list .btn-delete:hover {
+    background-color: #c82333;
+}
+
+.course-list .error {
+    color: red;
+}
