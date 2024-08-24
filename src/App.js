@@ -8,7 +8,7 @@ import InstanceList from './components/CourseInstanceList';
 import InstanceDetails from './components/CourseInstanceDetails';
 import CreateInstance from './components/CreateInstance';
 import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; // Import the toast styles
+import 'react-toastify/dist/ReactToastify.css'; 
 
 function App() {
     return (
