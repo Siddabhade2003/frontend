@@ -10,7 +10,7 @@ const CreateCourseInstance = () => {
         e.preventDefault();
         axios.post('/api/instances', { year, semester, courseId })
             .then(() => {
-                // Redirect or show a success message
+                
             })
             .catch(error => {
                 console.error('There was an error creating the course instance!', error);
