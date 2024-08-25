@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './CreateInstance.css'; // Assuming you have custom styles here
+import './CreateInstance.css'; 
 
 const CreateInstance = () => {
     const [instance, setInstance] = useState({ courseId: '', year: '', semester: '' });
@@ -16,7 +16,7 @@ const CreateInstance = () => {
         e.preventDefault();
 
         const courseInstanceData = {
-            course: { id: instance.courseId }, // Wrapping courseId in a course object
+            course: { id: instance.courseId }, 
             year: instance.year,
             semester: instance.semester
         };
