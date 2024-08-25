@@ -1,7 +1,6 @@
 {
   "name": "course-management",
   "version": "0.1.0",
-  "proxy": "http://course-management-backend-1:8080",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
