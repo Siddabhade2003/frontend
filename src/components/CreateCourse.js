@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; // Import the toast styles
-import './CreateCourse.css'; // Add your custom styles here
+import 'react-toastify/dist/ReactToastify.css'; 
+import './CreateCourse.css'; 
 
 const CreateCourse = () => {
     const [course, setCourse] = useState({ title: '', courseCode: '', description: '' });
